@@ -1,0 +1,3 @@
+/home/tc/projects/quranBot/build/websocketpp-download/CMakeFiles/rebuild_cache.dir
+/home/tc/projects/quranBot/build/websocketpp-download/CMakeFiles/websocketpp-download.dir
+/home/tc/projects/quranBot/build/websocketpp-download/CMakeFiles/edit_cache.dir

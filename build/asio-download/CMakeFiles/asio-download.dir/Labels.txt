@@ -1,0 +1,14 @@
+# Target labels
+ asio-download
+# Source files and their labels
+/home/tc/projects/quranBot/build/asio-download/CMakeFiles/asio-download
+/home/tc/projects/quranBot/build/asio-download/CMakeFiles/asio-download.rule
+/home/tc/projects/quranBot/build/asio-download/CMakeFiles/asio-download-complete.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-install.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-mkdir.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-download.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-patch.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-configure.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-build.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-test.rule
+/home/tc/projects/quranBot/build/asio-download/asio-download-prefix/src/asio-download-stamp/asio-download-skip-update.rule

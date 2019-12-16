@@ -1,0 +1,48 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdb72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdb72.dir/build.make CMakeFiles/cmTC_bdb72.dir/build
+make[1]: Entering directory '/home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdb72.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdb72.dir/CheckSymbolExists.c.o   -c /home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bdb72
+/tmp/tcloop/cmake/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb72.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bdb72.dir/CheckSymbolExists.c.o  -o cmTC_bdb72 
+/usr/bin/ld: CMakeFiles/cmTC_bdb72.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bdb72.dir/build.make:87: cmTC_bdb72] Error 1
+make[1]: Leaving directory '/home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bdb72/fast] Error 2
+
+File /home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _flag_supported failed with the following output:
+Change Dir: /home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdbc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdbc8.dir/build.make CMakeFiles/cmTC_bdbc8.dir/build
+make[1]: Entering directory '/home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdbc8.dir/src.cxx.o
+/home/tc/.zapcc/build/bin/zapcc++    -D_flag_supported   /W4 -o CMakeFiles/cmTC_bdbc8.dir/src.cxx.o -c /home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp/src.cxx
+zapcc: error: no such file or directory: '/W4'
+make[1]: *** [CMakeFiles/cmTC_bdbc8.dir/build.make:66: CMakeFiles/cmTC_bdbc8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/tc/projects/quranBot/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bdbc8/fast] Error 2
+
+Source file was:
+int main() { return 0; }

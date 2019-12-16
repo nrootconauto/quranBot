@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ext/sleepy-discord/include/sleepy_discord/json.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+ctype.h
+-
+stdarg.h
+-
+string.h
+-
+string
+-
+vector
+-
+
+/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json.c
+json.h
+/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json.h
+

@@ -1,0 +1,14 @@
+# Target labels
+ cpr-download
+# Source files and their labels
+/home/tc/projects/quranBot/build/cpr-download/CMakeFiles/cpr-download
+/home/tc/projects/quranBot/build/cpr-download/CMakeFiles/cpr-download.rule
+/home/tc/projects/quranBot/build/cpr-download/CMakeFiles/cpr-download-complete.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-install.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-download.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-build.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-test.rule
+/home/tc/projects/quranBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update.rule

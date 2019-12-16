@@ -1,0 +1,1 @@
+/home/tc/.zapcc/build/bin/zapcc++     CMakeFiles/quranBot.dir/src/commands/ayat.cpp.o CMakeFiles/quranBot.dir/src/main.cpp.o  -o quranBot ext/sleepy-discord/sleepy_discord/libsleepy-discord.a ext/json11/libjson11.a -lmemcached -lmemcachedutil lib/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so -lssl -lcrypto -pthread 
