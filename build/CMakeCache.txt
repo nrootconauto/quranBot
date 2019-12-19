@@ -36,7 +36,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -110,7 +110,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
@@ -322,6 +322,15 @@ json11_BINARY_DIR:STATIC=/home/tc/projects/quranBot/build/ext/json11
 json11_SOURCE_DIR:STATIC=/home/tc/projects/quranBot/ext/json11
 
 //Path to a library.
+pkgcfg_lib_magick_Magick++-6.Q16:FILEPATH=/usr/lib/x86_64-linux-gnu/libMagick++-6.Q16.so
+
+//Path to a library.
+pkgcfg_lib_magick_MagickCore-6.Q16:FILEPATH=/usr/lib/x86_64-linux-gnu/libMagickCore-6.Q16.so
+
+//Path to a library.
+pkgcfg_lib_magick_MagickWand-6.Q16:FILEPATH=/usr/lib/x86_64-linux-gnu/libMagickWand-6.Q16.so
+
+//Path to a library.
 pkgcfg_lib_memCached_memcached:FILEPATH=/usr/lib/x86_64-linux-gnu/libmemcached.so
 
 //Path to a library.
@@ -524,12 +533,48 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
+__pkg_config_arguments_magick:INTERNAL=REQUIRED;ImageMagick++
 __pkg_config_arguments_memCached:INTERNAL=REQUIRED;libmemcached
 __pkg_config_arguments_memcached:INTERNAL=REQUIRED;libmemcached
+__pkg_config_checked_magick:INTERNAL=1
 __pkg_config_checked_memCached:INTERNAL=1
 __pkg_config_checked_memcached:INTERNAL=1
 //Test _flag_supported
 _flag_supported:INTERNAL=
+magick_CFLAGS:INTERNAL=-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6
+magick_CFLAGS_I:INTERNAL=
+magick_CFLAGS_OTHER:INTERNAL=-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16
+magick_FOUND:INTERNAL=1
+magick_INCLUDEDIR:INTERNAL=/usr/include/ImageMagick-6
+magick_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6;/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6;/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6
+magick_ImageMagick++_INCLUDEDIR:INTERNAL=
+magick_ImageMagick++_LIBDIR:INTERNAL=
+magick_ImageMagick++_PREFIX:INTERNAL=
+magick_ImageMagick++_VERSION:INTERNAL=
+magick_LDFLAGS:INTERNAL=-lMagick++-6.Q16;-lMagickWand-6.Q16;-lMagickCore-6.Q16
+magick_LDFLAGS_OTHER:INTERNAL=
+magick_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+magick_LIBRARIES:INTERNAL=Magick++-6.Q16;MagickWand-6.Q16;MagickCore-6.Q16
+magick_LIBRARY_DIRS:INTERNAL=
+magick_LIBS:INTERNAL=
+magick_LIBS_L:INTERNAL=
+magick_LIBS_OTHER:INTERNAL=
+magick_LIBS_PATHS:INTERNAL=
+magick_PREFIX:INTERNAL=/usr
+magick_STATIC_CFLAGS:INTERNAL=-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6;-I/usr/include/x86_64-linux-gnu//ImageMagick-6;-I/usr/include/ImageMagick-6
+magick_STATIC_CFLAGS_I:INTERNAL=
+magick_STATIC_CFLAGS_OTHER:INTERNAL=-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16;-fopenmp;-DMAGICKCORE_HDRI_ENABLE=0;-DMAGICKCORE_QUANTUM_DEPTH=16
+magick_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6;/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6;/usr/include/x86_64-linux-gnu//ImageMagick-6;/usr/include/ImageMagick-6
+magick_STATIC_LDFLAGS:INTERNAL=-lMagick++-6.Q16;-llcms2;-lfreetype;-llqr-1;-lglib-2.0;-lfftw3;-lxml2;-lfontconfig;-lfreetype;-lXext;-lSM;-lICE;-lX11;-lXt;-llzma;-lbz2;-lz;-lltdl;-lm;-lgomp;-lm;-lMagickWand-6.Q16;-llcms2;-lfreetype;-llqr-1;-lglib-2.0;-lfftw3;-lxml2;-lfontconfig;-lfreetype;-lXext;-lSM;-lICE;-lX11;-lXt;-llzma;-lbz2;-lz;-lltdl;-lm;-lgomp;-lm;-lMagickCore-6.Q16;-llcms2;-lfreetype;-llqr-1;-lglib-2.0;-lfftw3;-lxml2;-lfontconfig;-lfreetype;-lXext;-lSM;-lICE;-lX11;-lXt;-llzma;-lbz2;-lz;-lltdl;-lm;-lgomp;-lm
+magick_STATIC_LDFLAGS_OTHER:INTERNAL=
+magick_STATIC_LIBDIR:INTERNAL=
+magick_STATIC_LIBRARIES:INTERNAL=Magick++-6.Q16;lcms2;freetype;lqr-1;glib-2.0;fftw3;xml2;fontconfig;freetype;Xext;SM;ICE;X11;Xt;lzma;bz2;z;ltdl;m;gomp;m;MagickWand-6.Q16;lcms2;freetype;lqr-1;glib-2.0;fftw3;xml2;fontconfig;freetype;Xext;SM;ICE;X11;Xt;lzma;bz2;z;ltdl;m;gomp;m;MagickCore-6.Q16;lcms2;freetype;lqr-1;glib-2.0;fftw3;xml2;fontconfig;freetype;Xext;SM;ICE;X11;Xt;lzma;bz2;z;ltdl;m;gomp;m
+magick_STATIC_LIBRARY_DIRS:INTERNAL=
+magick_STATIC_LIBS:INTERNAL=
+magick_STATIC_LIBS_L:INTERNAL=
+magick_STATIC_LIBS_OTHER:INTERNAL=
+magick_STATIC_LIBS_PATHS:INTERNAL=
+magick_VERSION:INTERNAL=6.9.10
 memCached_CFLAGS:INTERNAL=
 memCached_CFLAGS_I:INTERNAL=
 memCached_CFLAGS_OTHER:INTERNAL=

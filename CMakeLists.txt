@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
+#debug build
+set(CMAKE_CONFIGURATION_TYPES "Debug" CACHE STRING "" FORCE)
 
 #CMAKE_EXPORT_COMPILE_COMMANDS
 project(quranBot)
@@ -36,3 +38,9 @@ pkg_check_modules(memcached REQUIRED libmemcached)
 target_link_libraries(quranBot ${memcached_LIBRARIES})
 target_include_directories(quranBot PUBLIC ${memcached_INCLUDE_DIRS})
 target_compile_options(quranBot PUBLIC ${memcahced_CFLAGS_OTHER})
+
+#add imagemagick
+pkg_check_modules(magick REQUIRED ImageMagick++)
+target_link_libraries(quranBot ${magick_LIBRARIES})
+target_include_directories(quranBot PUBLIC ${magick_INCLUDE_DIRS})
+target_compile_options(quranBot PUBLIC ${magick_CFLAGS_OTHER})

@@ -18,6 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././ext/sleepy-discord/include"
   ".././ext/json11"
+  "/usr/include/x86_64-linux-gnu/ImageMagick-6"
+  "/usr/include/ImageMagick-6"
   "../ext/sleepy-discord/include"
   "../ext/sleepy-discord/deps/include"
   "../ext/sleepy-discord/deps/cpr/include"

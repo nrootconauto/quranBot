@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <vector>
 #include <functional>
+#include "./commands/ayat.hpp"
 #include "../headers/main.hpp"
 			void Bot::bot::onMessage(SleepyDiscord::Message message) {
 				//===if addresing this bot
@@ -37,8 +38,11 @@
 			}
 	int main() {
 		const std::string token( "NjU1MTE1MTA0MTQwMTMyMzg1.Xfag5g.z7ASq6_pCaTinL10dWoYQX3f2Z4");
-		
+		std::vector<std::string> testText {"1:3"};
+		auto temp=ayatCommand::makeAyatCommand();
+		//ayatCommand::makeRenderOfAyats(testText);
 		Bot::bot client(token);
-		client.run();
+		temp(client,testText);
+		//client.run();
 		return 0;
 	}

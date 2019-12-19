@@ -1,0 +1,5 @@
+#ifndef QURANBOT_AYAT_H
+#define QURANBOT_AYAT_H#
+#include "../../headers/main.hpp"
+	Bot::commandFunc makeAyatCommand();
+#endif
