@@ -9,7 +9,11 @@
 	namespace Bot {
 			class bot;
 			typedef std::function<void(bot&,std::vector<std::string>&)>  commandFunc;
-			
+			class botCommandException {
+				public:
+					std::string message;
+					botCommandException(std::string msg="DefineMe"):message(msg) {};
+			};
 			class bot: public SleepyDiscord::DiscordClient {
 				public:
 					//caommands

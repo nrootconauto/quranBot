@@ -46,6 +46,7 @@
 			//makes the embed
 			Bot::commandFunc makeAyatCommand() {
 				auto lambda=[](Bot::bot& quranBot,std::vector<std::string>& args)->void {
+					try{
 					json11::Json current;
 					auto loadSurahAyats=[&](int surah)->void {
 						//get the file name
@@ -173,12 +174,20 @@
 								if(current["Surah"].number_value()!=surah) {
 									loadSurahAyats(surah);
 								}
+								//make sure the ayat is above 0
+								if(ayat<=0)
+									throw(Bot::botCommandException("Make sure the Ayat is above 0"));
 								//get the ayat
 								std::cout<<"Current Lang:"<<currentLangauge<<std::endl;
-								auto temp=current.object_items();
-								for(auto it=temp.begin();it!=temp.end();it++)
-									std::cout<<"ayatTranslationsAndText:"<<it->first<<std::endl;
-								//retVal=temp.array_items()[ayat][currentLangauge].string_value();
+								auto temp=current["Ayats"];
+								//make sure ayat is in surah
+								if(ayat+1>=temp.array_items().size()) {
+									std::stringstream ss;
+									ss<<"This Surah only has "<<temp.array_items().size()<<" ayats!"<<std::endl;
+									throw(Bot::botCommandException(ss.str()));
+								}
+								auto temp2=temp[ayat-1];
+								retVal=temp2[currentLangauge].string_value();
 								//cache the result
 								memcached_add(cacheServer, key.c_str(), key.size(), retVal.c_str(), retVal.size(), (time_t)0, 0);
 							}
@@ -247,6 +256,9 @@
 					//auto message=SleepyDiscord::Message(&compiledJson);
 					//send it out
 					//message.send( dynamic_cast<SleepyDiscord::BaseDiscordClient*>(&quranBot));
+					} catch(Bot::botCommandException x) {
+						std::cout<<x.message;
+					}
 				};
 				return lambda;
 			}
