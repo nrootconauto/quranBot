@@ -38,9 +38,9 @@
 			}
 	int main() {
 		const std::string token( "NjU1MTE1MTA0MTQwMTMyMzg1.Xfag5g.z7ASq6_pCaTinL10dWoYQX3f2Z4");
-		std::vector<std::string> testText {"1:300"};
+		std::vector<std::string> testText {"1:1-3"};
 		auto temp=ayatCommand::makeAyatCommand();
-		//ayatCommand::makeRenderOfAyats(testText);
+		ayatCommand::makeRenderOfAyats(testText);
 		Bot::bot client(token);
 		temp(client,testText);
 		//client.run();

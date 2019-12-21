@@ -32,15 +32,24 @@
 			}
 			//makes the image
 			Magick::Image makeRenderOfAyats(std::vector<std::string>& arabic) {
-				auto image=Magick::Image( "200x200","white");
-				image.backgroundColor("green");
+				
+				auto image=Magick::Image( "480x200","green");
+				image.matte(true);
 				image.font("DejaVu-Sans-Mono-Bold");
 				image.fontPointsize(20);
 				image.strokeWidth(1);
+				image.backgroundColor("transparent");
 				image.strokeColor("green");
 				image.fillColor("yellow");
-				image.read("Pango:Hello World");
+				//make the string
+				std::string temp;
+				for(auto& item:arabic)
+					temp+=item;
+				image.read("Pango:"+temp);
+				image.trim();
 				image.display();
+				image.magick("png");
+				image.write("out.png");
 				return image;
 			}
 			//makes the embed
@@ -131,15 +140,26 @@
 					//===groups "things" by Surah Number
 					std::vector<std::string> surahGroups;
 					std::string temp;
+					std::string lastAloneNumber;
+					const std::string digits="0123456789";
+					auto notDigit=[&](char chr)->bool {
+						return std::string::npos!=digits.find(chr);
+					};
 					for(auto& arg:args) {
 						//if no surah Specified(has a ":"),add to surah Groups
 						if(arg.find(':')) {
 							//if has text,push it then clear
 							if(temp.size()!=0) {
-								surahGroups.push_back(temp);
+								//works for "5 :" as 5 is the last alone number
+								surahGroups.push_back(lastAloneNumber+temp);
 								temp.clear();
+								lastAloneNumber.clear();
 							};
-						}
+							//check if is a alone number
+						} else if(arg.end()== std::find_if(arg.begin(), arg.end(), notDigit)) {
+							//pump it into a number
+							lastAloneNumber=arg;
+						};
 						temp+=arg;
 					}
 					//push remainder if has text
@@ -188,6 +208,18 @@
 								}
 								auto temp2=temp[ayat-1];
 								retVal=temp2[currentLangauge].string_value();
+								//remove {x} "ayat marker" if arabic text \ufd3e
+								if(currentLangauge=="arabic") {
+									const std::string left="\ufd3e";
+									const std::string right="\ufd3f";
+									auto side1=retVal.begin()+retVal.find("\ufd3e");
+									auto side2=retVal.begin()+retVal.find("\ufd3f");
+									//ensure side1 is before side2
+									if(side1>side2)
+										std::swap(side1,side2);
+									std::swap_ranges(side1, side1+left.size(), side2);
+									//retVal.erase(retVal.begin()+side1,retVal.begin()+side2+right.size());
+								}
 								//cache the result
 								memcached_add(cacheServer, key.c_str(), key.size(), retVal.c_str(), retVal.size(), (time_t)0, 0);
 							}
@@ -195,16 +227,18 @@
 						return retVal;
 					};
 					//go thorugh the ranges
-					std::map<std::string,std::string > langaugeTexts;
+					std::map<std::string,std::vector<std::pair<std::pair<int,int>,std::string>>> langaugeTexts;
 					for(auto& group:ranges) {
 						//this is the range of the surah to print
 						for(auto& range:group.ranges)
-							for(int i=range.first;i!=range.second+1;i++) {
+							//ensure that the first part of the range is lesser than the last
+							//go through the ranges
+							for(int i=range.first;i!=range.second;i++) {
 								//first do arabic then other
-								langaugeTexts["arabic"]+=getAyat(group.surah,i,"arabic");
+								langaugeTexts["arabic"].push_back(std::make_pair(std::make_pair(group.surah,i), getAyat(group.surah,i,"arabic")));
 								//load the translations
 								for(auto& langauge: quranBot.currentLanguagesToShow) {
-									langaugeTexts[langauge]=getAyat(group.surah,i,langauge);
+									langaugeTexts[langauge].push_back(std::make_pair(std::make_pair(group.surah,i), getAyat(group.surah,i,langauge)));
 								}
 							}
 					}
@@ -225,8 +259,15 @@
 					for(auto& lang:order) {
 						auto& text=langaugeTexts[lang];
 						//push back entry if text is not empty
-						if(text.size()!=0)
-							fields.push_back(json11::Json::object {{"title",lang},{"Value",text}});
+						if(text.size()!=0) {
+							//go trough the ayats
+							for(auto& entry:text) {
+								//make the title in form "[Surah]:[Ayat]([langauge])"
+								std::stringstream title;
+								title<<entry.first.first<<":"<<(entry.first.second)<<"("<<lang<<")";
+								fields.push_back(json11::Json::object {{"name",title.str()},{"value",entry.second}});
+							}
+						}
 					}
 					//jsonify that stuff
 					json11::Json embed =json11::Json::object {
@@ -252,6 +293,9 @@
 					};
 					std::string compiledJson=embed.dump();
 					std::cout<<"JSON:"<<embed.dump();
+					std::ofstream poop("output.json");
+					poop<<embed.dump();
+					poop.close();
 					//make the message
 					//auto message=SleepyDiscord::Message(&compiledJson);
 					//send it out
