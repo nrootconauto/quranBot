@@ -261,6 +261,9 @@ ENABLE_VOICE:BOOL=OFF
 //Set to ON to generate coverage reports.
 GENERATE_COVERAGE:BOOL=OFF
 
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=/usr/bin/git
+
 //Installation directory for CMake files
 INSTALL_CMAKE_DIR:PATH=lib/cmake/websocketpp
 
@@ -279,6 +282,9 @@ ONLY_SLEEPY_DISCORD:BOOL=OFF
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//Build examples of Sleepy Discord
+SLEEPY_DISCORD_BUILD_EXAMPLES:BOOL=OFF
 
 //Use ASIO network and I/O library (Used for UDP)
 USE_ASIO:BOOL=OFF
@@ -525,10 +531,14 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][v7.64.0()]
+//Details about finding Git
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.20.1()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE

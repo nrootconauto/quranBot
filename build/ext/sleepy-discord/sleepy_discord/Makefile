@@ -198,6 +198,33 @@ asignments_client.cpp.s:
 	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asignments_client.cpp.s
 .PHONY : asignments_client.cpp.s
 
+asio_udp.o: asio_udp.cpp.o
+
+.PHONY : asio_udp.o
+
+# target to build an object file
+asio_udp.cpp.o:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o
+.PHONY : asio_udp.cpp.o
+
+asio_udp.i: asio_udp.cpp.i
+
+.PHONY : asio_udp.i
+
+# target to preprocess a source file
+asio_udp.cpp.i:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
+.PHONY : asio_udp.cpp.i
+
+asio_udp.s: asio_udp.cpp.s
+
+.PHONY : asio_udp.s
+
+# target to generate assembly for a file
+asio_udp.cpp.s:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
+.PHONY : asio_udp.cpp.s
+
 attachment.o: attachment.cpp.o
 
 .PHONY : attachment.o
@@ -333,33 +360,6 @@ default_functions.cpp.s:
 	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
 .PHONY : default_functions.cpp.s
 
-discord_object_interface.o: discord_object_interface.cpp.o
-
-.PHONY : discord_object_interface.o
-
-# target to build an object file
-discord_object_interface.cpp.o:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o
-.PHONY : discord_object_interface.cpp.o
-
-discord_object_interface.i: discord_object_interface.cpp.i
-
-.PHONY : discord_object_interface.i
-
-# target to preprocess a source file
-discord_object_interface.cpp.i:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.i
-.PHONY : discord_object_interface.cpp.i
-
-discord_object_interface.s: discord_object_interface.cpp.s
-
-.PHONY : discord_object_interface.s
-
-# target to generate assembly for a file
-discord_object_interface.cpp.s:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.s
-.PHONY : discord_object_interface.cpp.s
-
 embed.o: embed.cpp.o
 
 .PHONY : embed.o
@@ -494,33 +494,6 @@ invite.s: invite.cpp.s
 invite.cpp.s:
 	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.s
 .PHONY : invite.cpp.s
-
-json.o: json.c.o
-
-.PHONY : json.o
-
-# target to build an object file
-json.c.o:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.o
-.PHONY : json.c.o
-
-json.i: json.c.i
-
-.PHONY : json.i
-
-# target to preprocess a source file
-json.c.i:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.i
-.PHONY : json.c.i
-
-json.s: json.c.s
-
-.PHONY : json.s
-
-# target to generate assembly for a file
-json.c.s:
-	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.s
-.PHONY : json.c.s
 
 json_wrapper.o: json_wrapper.cpp.o
 
@@ -738,6 +711,33 @@ voice.cpp.s:
 	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.s
 .PHONY : voice.cpp.s
 
+voice_connection.o: voice_connection.cpp.o
+
+.PHONY : voice_connection.o
+
+# target to build an object file
+voice_connection.cpp.o:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o
+.PHONY : voice_connection.cpp.o
+
+voice_connection.i: voice_connection.cpp.i
+
+.PHONY : voice_connection.i
+
+# target to preprocess a source file
+voice_connection.cpp.i:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
+.PHONY : voice_connection.cpp.i
+
+voice_connection.s: voice_connection.cpp.s
+
+.PHONY : voice_connection.s
+
+# target to generate assembly for a file
+voice_connection.cpp.s:
+	cd /home/tc/projects/quranBot/build && $(MAKE) -f ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
+.PHONY : voice_connection.cpp.s
+
 webhook.o: webhook.cpp.o
 
 .PHONY : webhook.o
@@ -808,6 +808,9 @@ help:
 	@echo "... asignments_client.o"
 	@echo "... asignments_client.i"
 	@echo "... asignments_client.s"
+	@echo "... asio_udp.o"
+	@echo "... asio_udp.i"
+	@echo "... asio_udp.s"
 	@echo "... attachment.o"
 	@echo "... attachment.i"
 	@echo "... attachment.s"
@@ -823,9 +826,6 @@ help:
 	@echo "... default_functions.o"
 	@echo "... default_functions.i"
 	@echo "... default_functions.s"
-	@echo "... discord_object_interface.o"
-	@echo "... discord_object_interface.i"
-	@echo "... discord_object_interface.s"
 	@echo "... embed.o"
 	@echo "... embed.i"
 	@echo "... embed.s"
@@ -841,9 +841,6 @@ help:
 	@echo "... invite.o"
 	@echo "... invite.i"
 	@echo "... invite.s"
-	@echo "... json.o"
-	@echo "... json.i"
-	@echo "... json.s"
 	@echo "... json_wrapper.o"
 	@echo "... json_wrapper.i"
 	@echo "... json_wrapper.s"
@@ -868,6 +865,9 @@ help:
 	@echo "... voice.o"
 	@echo "... voice.i"
 	@echo "... voice.s"
+	@echo "... voice_connection.o"
+	@echo "... voice_connection.i"
+	@echo "... voice_connection.s"
 	@echo "... webhook.o"
 	@echo "... webhook.i"
 	@echo "... webhook.s"

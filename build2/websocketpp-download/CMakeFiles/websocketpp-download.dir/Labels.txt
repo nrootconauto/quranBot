@@ -1,0 +1,14 @@
+# Target labels
+ websocketpp-download
+# Source files and their labels
+/home/tc/projects/quranBot/build2/websocketpp-download/CMakeFiles/websocketpp-download
+/home/tc/projects/quranBot/build2/websocketpp-download/CMakeFiles/websocketpp-download.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/CMakeFiles/websocketpp-download-complete.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test.rule
+/home/tc/projects/quranBot/build2/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update.rule

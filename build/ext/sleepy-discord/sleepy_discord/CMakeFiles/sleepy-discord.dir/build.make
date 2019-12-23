@@ -70,9 +70,22 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asignments_clien
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/asignments_client.cpp.s"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asignments_client.cpp -o CMakeFiles/sleepy-discord.dir/asignments_client.cpp.s
 
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o: ../ext/sleepy-discord/sleepy_discord/asio_udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asio_udp.cpp
+
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asio_udp.cpp > CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
+
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asio_udp.cpp -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
+
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o: ../ext/sleepy-discord/sleepy_discord/attachment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/attachment.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/attachment.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.i: cmake_force
@@ -85,7 +98,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.s
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o: ../ext/sleepy-discord/sleepy_discord/channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/channel.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/channel.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.i: cmake_force
@@ -98,7 +111,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.s: c
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o: ../ext/sleepy-discord/sleepy_discord/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/client.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/client.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.i: cmake_force
@@ -111,7 +124,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.s: cm
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o: ../ext/sleepy-discord/sleepy_discord/cpr_session.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/cpr_session.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i: cmake_force
@@ -124,7 +137,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o: ../ext/sleepy-discord/sleepy_discord/default_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/default_functions.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.i: cmake_force
@@ -134,19 +147,6 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_function
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/default_functions.cpp.s"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/default_functions.cpp -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
-
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o: ../ext/sleepy-discord/sleepy_discord/discord_object_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/discord_object_interface.cpp
-
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.i"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/discord_object_interface.cpp > CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.i
-
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.s"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/discord_object_interface.cpp -o CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.s
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o: ../ext/sleepy-discord/sleepy_discord/embed.cpp
@@ -226,22 +226,9 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json_wrapper.cpp -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s
 
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.o: ../ext/sleepy-discord/sleepy_discord/json.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.o"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sleepy-discord.dir/json.c.o   -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json.c
-
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sleepy-discord.dir/json.c.i"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json.c > CMakeFiles/sleepy-discord.dir/json.c.i
-
-ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sleepy-discord.dir/json.c.s"
-	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json.c -o CMakeFiles/sleepy-discord.dir/json.c.s
-
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o: ../ext/sleepy-discord/sleepy_discord/message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/message.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/message.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.i: cmake_force
@@ -254,7 +241,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.s: c
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o: ../ext/sleepy-discord/sleepy_discord/permissions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/permissions.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/permissions.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.i: cmake_force
@@ -267,7 +254,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o: ../ext/sleepy-discord/sleepy_discord/sd_error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/sd_error.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.i: cmake_force
@@ -280,7 +267,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.s: 
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o: ../ext/sleepy-discord/sleepy_discord/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/server.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/server.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.i: cmake_force
@@ -293,7 +280,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.s: cm
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o: ../ext/sleepy-discord/sleepy_discord/user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/user.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/user.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.i: cmake_force
@@ -306,7 +293,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.s: cmak
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o: ../ext/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i: cmake_force
@@ -319,7 +306,7 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_webs
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o: ../ext/sleepy-discord/sleepy_discord/voice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice.cpp
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.i: cmake_force
@@ -329,6 +316,19 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.i: cma
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/voice.cpp.s"
 	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice.cpp -o CMakeFiles/sleepy-discord.dir/voice.cpp.s
+
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o: ../ext/sleepy-discord/sleepy_discord/voice_connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tc/projects/quranBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice_connection.cpp
+
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice_connection.cpp > CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
+
+ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s"
+	cd /home/tc/projects/quranBot/build/ext/sleepy-discord/sleepy_discord && /home/tc/.zapcc/build/bin/zapcc++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice_connection.cpp -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
 
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o: ../ext/sleepy-discord/sleepy_discord/webhook.cpp
@@ -359,19 +359,18 @@ ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_webs
 # Object files for target sleepy-discord
 sleepy__discord_OBJECTS = \
 "CMakeFiles/sleepy-discord.dir/asignments_client.cpp.o" \
+"CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/attachment.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/channel.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/client.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/default_functions.cpp.o" \
-"CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/embed.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/endpoints.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/gateway.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/http.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/invite.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o" \
-"CMakeFiles/sleepy-discord.dir/json.c.o" \
 "CMakeFiles/sleepy-discord.dir/message.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/permissions.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/sd_error.cpp.o" \
@@ -379,6 +378,7 @@ sleepy__discord_OBJECTS = \
 "CMakeFiles/sleepy-discord.dir/user.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/voice.cpp.o" \
+"CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/webhook.cpp.o" \
 "CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o"
 
@@ -386,19 +386,18 @@ sleepy__discord_OBJECTS = \
 sleepy__discord_EXTERNAL_OBJECTS =
 
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asignments_client.cpp.o
+ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o
-ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/discord_object_interface.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o
-ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json.c.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o
@@ -406,6 +405,7 @@ ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o
+ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o
 ext/sleepy-discord/sleepy_discord/libsleepy-discord.a: ext/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make

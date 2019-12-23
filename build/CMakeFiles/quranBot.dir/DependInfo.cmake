@@ -12,6 +12,13 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "CURL_STATICLIB"
+  "EXISTENT_ASIO"
+  "EXISTENT_CPR"
+  "EXISTENT_WEBSOCKETPP"
+  "NONEXISTENT_OPUS"
+  "NONEXISTENT_SODIUM"
+  "NONEXISTENT_UWEBSOCKETS"
+  "SLEEPY_DISCORD_CMAKE"
   )
 
 # The include file search paths:
@@ -25,7 +32,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../ext/sleepy-discord/deps/cpr/include"
   "../ext/sleepy-discord/deps/asio/asio/include"
   "../ext/sleepy-discord/deps/websocketpp"
-  "../ext/sleepy-discord/include/sleepy_discord/IncludeNonexistent"
   "/usr/include/x86_64-linux-gnu"
   "../ext/json11"
   )

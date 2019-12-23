@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/quranBot.dir/src/commands/ayat.cpp.o CMakeFiles/quranBot.dir/src/main.cpp.o  -o quranBot ext/sleepy-discord/sleepy_discord/libsleepy-discord.a ext/json11/libjson11.a -lmemcached -lmemcachedutil -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 lib/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so -lssl -lcrypto -pthread 

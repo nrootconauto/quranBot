@@ -1,0 +1,48 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1996f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1996f.dir/build.make CMakeFiles/cmTC_1996f.dir/build
+make[1]: Entering directory '/home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1996f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1996f.dir/CheckSymbolExists.c.o   -c /home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1996f
+/tmp/tcloop/cmake/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1996f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1996f.dir/CheckSymbolExists.c.o  -o cmTC_1996f 
+/usr/bin/ld: CMakeFiles/cmTC_1996f.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1996f.dir/build.make:87: cmTC_1996f] Error 1
+make[1]: Leaving directory '/home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1996f/fast] Error 2
+
+File /home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _flag_supported failed with the following output:
+Change Dir: /home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f307a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f307a.dir/build.make CMakeFiles/cmTC_f307a.dir/build
+make[1]: Entering directory '/home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f307a.dir/src.cxx.o
+/usr/bin/c++    -D_flag_supported   /W4 -o CMakeFiles/cmTC_f307a.dir/src.cxx.o -c /home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp/src.cxx
+c++: error: /W4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_f307a.dir/build.make:66: CMakeFiles/cmTC_f307a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/tc/projects/quranBot/build2/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f307a/fast] Error 2
+
+Source file was:
+int main() { return 0; }

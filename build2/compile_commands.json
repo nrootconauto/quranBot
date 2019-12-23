@@ -1,0 +1,197 @@
+[
+{
+  "directory": "/home/tc/projects/quranBot/build2",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/./ext/sleepy-discord/include -I/home/tc/projects/quranBot/./ext/json11 -I/usr/include/x86_64-linux-gnu/ImageMagick-6 -I/usr/include/ImageMagick-6 -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu -I/home/tc/projects/quranBot/ext/json11    -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -Wall -pthread -std=gnu++14 -o CMakeFiles/quranBot.dir/src/commands/ayat.cpp.o -c /home/tc/projects/quranBot/src/commands/ayat.cpp",
+  "file": "/home/tc/projects/quranBot/src/commands/ayat.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/./ext/sleepy-discord/include -I/home/tc/projects/quranBot/./ext/json11 -I/usr/include/x86_64-linux-gnu/ImageMagick-6 -I/usr/include/ImageMagick-6 -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu -I/home/tc/projects/quranBot/ext/json11    -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -Wall -pthread -std=gnu++14 -o CMakeFiles/quranBot.dir/src/main.cpp.o -c /home/tc/projects/quranBot/src/main.cpp",
+  "file": "/home/tc/projects/quranBot/src/main.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/auth.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/auth.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/auth.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/cookies.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/cookies.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/cookies.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/cprtypes.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/cprtypes.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/cprtypes.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/digest.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/digest.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/digest.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/error.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/error.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/error.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/multipart.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/multipart.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/multipart.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/parameters.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/parameters.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/parameters.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/payload.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/payload.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/payload.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/proxies.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/proxies.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/proxies.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/session.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/session.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/session.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/timeout.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/timeout.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/timeout.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/util.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/util.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/util.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/deps/cpr/cpr",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DUSE_SYSTEM_CURL -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/usr/include/x86_64-linux-gnu    -std=gnu++11 -o CMakeFiles/cpr.dir/ssl_options.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/ssl_options.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/cpr/ssl_options.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/asignments_client.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asignments_client.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asignments_client.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asio_udp.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/asio_udp.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/attachment.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/attachment.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/attachment.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/channel.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/channel.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/channel.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/client.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/client.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/client.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/cpr_session.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/cpr_session.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/default_functions.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/default_functions.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/embed.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/embed.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/embed.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/endpoints.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/endpoints.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/endpoints.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/gateway.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/gateway.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/gateway.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/http.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/http.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/http.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/invite.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/invite.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/invite.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json_wrapper.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/json_wrapper.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/message.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/message.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/message.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/permissions.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/permissions.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/permissions.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/sd_error.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/sd_error.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/server.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/server.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/server.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/user.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/user.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/user.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/voice.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice_connection.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/voice_connection.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/webhook.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/webhook.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/webhook.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/sleepy-discord/sleepy_discord",
+  "command": "/usr/bin/c++  -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DSLEEPY_DISCORD_CMAKE -I/home/tc/projects/quranBot/ext/sleepy-discord/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/include -I/home/tc/projects/quranBot/ext/sleepy-discord/include/sleepy_discord -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/cpr/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/asio/asio/include -I/home/tc/projects/quranBot/ext/sleepy-discord/deps/websocketpp -I/usr/include/x86_64-linux-gnu    -Wall -pthread -std=gnu++14 -o CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o -c /home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp",
+  "file": "/home/tc/projects/quranBot/ext/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp"
+},
+{
+  "directory": "/home/tc/projects/quranBot/build2/ext/json11",
+  "command": "/usr/bin/c++   -I/home/tc/projects/quranBot/ext/json11    -fPIC -fno-rtti -fno-exceptions -Wall -std=gnu++11 -o CMakeFiles/json11.dir/json11.cpp.o -c /home/tc/projects/quranBot/ext/json11/json11.cpp",
+  "file": "/home/tc/projects/quranBot/ext/json11/json11.cpp"
+}
+]

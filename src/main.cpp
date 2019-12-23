@@ -31,18 +31,25 @@
 						//repeat at the current "item"
 						where=nonWhiteSpace;
 					}
+					//got the items so ignore first item("!quran")
+					//"glue"  code
+					//=== look for command(first item after !quran)
+					for(auto& command:this->commands) {
+						//"*" means all commands
+						if(command.first=="*")
+							command.second(*this,items,message.channelID);
+					}
 				}
-				//got the items so ignore first item("!quran")
-				//=== look for command(first item after !quran)
-				
 			}
 	int main() {
-		const std::string token( "NjU1MTE1MTA0MTQwMTMyMzg1.Xfag5g.z7ASq6_pCaTinL10dWoYQX3f2Z4");
+		const std::string token( "NjU1MTE1MTA0MTQwMTMyMzg1.XgAYAg.rrQTlDvqNjdT3DXRbTFUblfGQyk");
 		std::vector<std::string> testText {"1:1-3"};
 		auto temp=ayatCommand::makeAyatCommand();
 		ayatCommand::makeRenderOfAyats(testText);
 		Bot::bot client(token);
-		temp(client,testText);
-		//client.run();
+		//"glue code"
+		//register the ayatCommand as all("*")
+		client.commands["*"]=temp;
+		client.run();
 		return 0;
 	}

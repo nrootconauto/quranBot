@@ -5,10 +5,10 @@
 #include <functional>
 #include <vector>
 #include <string>
-#include <sleepy_discord/websocketpp_websocket.h>
+#include "../ext/sleepy-discord/include/sleepy_discord/websocketpp_websocket.h"
 	namespace Bot {
 			class bot;
-			typedef std::function<void(bot&,std::vector<std::string>&)>  commandFunc;
+			typedef std::function<void(bot&,std::vector<std::string>&,SleepyDiscord::Snowflake<SleepyDiscord::Channel>& channel)>  commandFunc;
 			class botCommandException {
 				public:
 					std::string message;

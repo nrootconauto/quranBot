@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tc/projects/quranBot/ext/json11/json11.cpp
+json11.hpp
+/home/tc/projects/quranBot/ext/json11/json11.hpp
+cassert
+-
+cmath
+-
+cstdlib
+-
+cstdio
+-
+limits
+-
+
+/home/tc/projects/quranBot/ext/json11/json11.hpp
+string
+-
+vector
+-
+map
+-
+memory
+-
+initializer_list
+-
+

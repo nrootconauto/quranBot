@@ -47,15 +47,23 @@
 					temp+=item;
 				image.read("Pango:"+temp);
 				image.trim();
-				image.display();
+				//image.display();
 				image.magick("png");
 				image.write("out.png");
 				return image;
 			}
 			//makes the embed
 			Bot::commandFunc makeAyatCommand() {
-				auto lambda=[](Bot::bot& quranBot,std::vector<std::string>& args)->void {
+				auto lambda=[](Bot::bot& quranBot,std::vector<std::string>& args, SleepyDiscord::Snowflake<SleepyDiscord::Channel>& channel)->void {
 					try{
+						//ORDER TO DISPLAY AYATS
+						const std::vector<std::string> order={
+							"arabic",
+							"english",
+							"spanish",
+							"french",
+							"urdu"
+						};
 					json11::Json current;
 					auto loadSurahAyats=[&](int surah)->void {
 						//get the file name
@@ -86,6 +94,8 @@
 					//Get gets the stuff
 					auto getAyatRangesInSurah=[&](std::string str)->ayatRange {
 						auto where=str.find_first_of(":");
+						if(where==std::string::npos)
+							throw std::string("Use like [Surah Number]:[ayat1](,[ayat2]-[ayatN])");
 						ayatRange retVal;
 						//get Surah number
 						std::stringstream stream;
@@ -98,7 +108,7 @@
 						std::string delim=",";
 						//get ayat ranges
 						auto iter=where+str.begin()+1; //go past ":"(does this by adding 1)
-						std::cout<<"str is:"<<str<<std::endl;
+						std::cout<<"str is"<<str<<std::endl;
 						while(iter!=str.end()) {
 							auto oldIter=iter;
 							//skip whitespace
@@ -145,7 +155,17 @@
 					auto notDigit=[&](char chr)->bool {
 						return std::string::npos!=digits.find(chr);
 					};
+					//list of langauges to display,(will defualt to engilshif none is foumd)
+					std::vector<std::string> toShow;
 					for(auto& arg:args) {
+						//check if found a langauge
+						if(order.end()!=std::find_if(order.begin(), order.end(), [&](const std::string& str)->bool {
+							return str==arg;
+						})) {
+							//add the found langauge to list to show
+							toShow.push_back(arg);
+							continue;
+						}
 						//if no surah Specified(has a ":"),add to surah Groups
 						if(arg.find(':')) {
 							//if has text,push it then clear
@@ -165,10 +185,17 @@
 					//push remainder if has text
 					if(temp!="")
 						surahGroups.push_back(temp);
+					//===default to english if toShow is empty;
+					if(toShow.size()==0)
+						toShow.push_back("english");
 					//=== get the ayat Ranges in the surah
 					std::vector<ayatRange> ranges;
 					for(auto& group:surahGroups)
-						ranges.push_back(getAyatRangesInSurah(group));
+						try {
+							ranges.push_back(getAyatRangesInSurah(group));
+						} catch(std::string err) {
+							std::cout<<(quranBot.sendMessage(channel, err) )<<endl;
+						}
 					//=== lamvda to fetch ayat
 					auto getAyat=[&](int surah,int ayat,std::string currentLangauge)->std::string {
 						std::string retVal;
@@ -217,8 +244,7 @@
 									//ensure side1 is before side2
 									if(side1>side2)
 										std::swap(side1,side2);
-									std::swap_ranges(side1, side1+left.size(), side2);
-									//retVal.erase(retVal.begin()+side1,retVal.begin()+side2+right.size());
+									//std::swap_ranges(side1, side1+left.size(), side2);
 								}
 								//cache the result
 								memcached_add(cacheServer, key.c_str(), key.size(), retVal.c_str(), retVal.size(), (time_t)0, 0);
@@ -235,9 +261,9 @@
 							//go through the ranges
 							for(int i=range.first;i!=range.second;i++) {
 								//first do arabic then other
-								langaugeTexts["arabic"].push_back(std::make_pair(std::make_pair(group.surah,i), getAyat(group.surah,i,"arabic")));
+								//langaugeTexts["arabic"].push_back(std::make_pair(std::make_pair(group.surah,i), getAyat(group.surah,i,"arabic")));
 								//load the translations
-								for(auto& langauge: quranBot.currentLanguagesToShow) {
+								for(auto& langauge: toShow) {
 									langaugeTexts[langauge].push_back(std::make_pair(std::make_pair(group.surah,i), getAyat(group.surah,i,langauge)));
 								}
 							}
@@ -245,14 +271,6 @@
 					//===arange in order of arabic,enlisgh,spanish,french,and urdu
 					std::string text;
 					std::stringstream sstream;
-					//ORDER TO DISPLAY AYATS
-					const std::vector<std::string> order={
-						"arabic",
-						"english",
-						"spanish",
-						"french",
-						"urdu"
-					};
 					//=== create the rich embed
 					json11::Json::array fields;
 					//go through the order of the things
@@ -282,7 +300,7 @@
 									"image","RENDERED TEXT HERE"
 								},
 								{
-									"color","#00ff00"
+									"color",0x00ff00
 								},
 								//insert the Sauce
 								{
@@ -297,9 +315,9 @@
 					poop<<embed.dump();
 					poop.close();
 					//make the message
-					//auto message=SleepyDiscord::Message(&compiledJson);
+					auto message=SleepyDiscord::Embed(&compiledJson);
 					//send it out
-					//message.send( dynamic_cast<SleepyDiscord::BaseDiscordClient*>(&quranBot));
+					quranBot.sendMessage(channel, "", message);
 					} catch(Bot::botCommandException x) {
 						std::cout<<x.message;
 					}

@@ -274,6 +274,20 @@ client.h
 standard_config_header.h
 .././ext/sleepy-discord/include/sleepy_discord/standard_config_header.h
 
+.././headers/main.hpp
+string
+-
+map
+-
+functional
+-
+vector
+-
+string
+-
+sleepy_discord/websocketpp_websocket.h
+-
+
 ../ext/sleepy-discord/deps/asio/asio/include/asio.hpp
 asio/associated_allocator.hpp
 ../ext/sleepy-discord/deps/asio/asio/include/asio/associated_allocator.hpp
@@ -9242,35 +9256,29 @@ string
 sleepy_discord/websocketpp_websocket.h
 -
 
-/home/tc/projects/quranBot/src/commands/./ayat.hpp
+/home/tc/projects/quranBot/src/./commands/ayat.hpp
 Magick++.h
 -
 ../../headers/main.hpp
 /home/tc/projects/quranBot/src/headers/main.hpp
 
-/home/tc/projects/quranBot/src/commands/ayat.cpp
-../../headers/main.hpp
-/home/tc/projects/quranBot/headers/main.hpp
+/home/tc/projects/quranBot/src/main.cpp
+iostream
+-
 json11.hpp
 -
-fstream
+map
 -
-string.h
+algorithm
 -
 vector
 -
-utility
+functional
 -
-list
--
-sstream
--
-Magick++.h
--
-libmemcached/memcached.hpp
--
-./ayat.hpp
-/home/tc/projects/quranBot/src/commands/./ayat.hpp
+./commands/ayat.hpp
+/home/tc/projects/quranBot/src/./commands/ayat.hpp
+../headers/main.hpp
+/home/tc/projects/quranBot/headers/main.hpp
 
 /usr/include/ImageMagick-6/Magick++.h
 Magick++/Include.h
